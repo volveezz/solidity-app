@@ -1,0 +1,1 @@
+select * from test_txs order by block_height desc fetch first 10 rows with ties;
